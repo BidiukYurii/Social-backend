@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3305/social
+    username: root
+    password: root
+  liquibase:
+    url: jdbc:mysql://localhost:3305/social
+    change-log:  classpath:liquibase/master.xml
+    user: root
+    password: root
